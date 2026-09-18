@@ -105,6 +105,7 @@ public class PROG5121P1 {
             // Allow the user to keep trying until the correct login details are entered
             boolean isLoginSuccessful = false;
             
+            // Repeat the login process until the correct username and password are entered
             while (!isLoginSuccessful) {
                 
             
