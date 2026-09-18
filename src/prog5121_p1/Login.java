@@ -59,6 +59,8 @@ public class Login {
         
     }
     
+    
+    // Registers the user after all required details have passed validation.
     public String registerUser(String firstName, String lastName, String username, String password, String cellphone) {
         
         // Validate username
@@ -86,6 +88,7 @@ public class Login {
         return "Registration successful.";
 }
     
+    // Compares the login details with the details saved during registration.
     public boolean loginUser(String username, String password) {
         return username.equals(savedUsername) && password.equals(savedPassword);
     }
