@@ -24,6 +24,8 @@ public class Login {
     }
     
     
+    // Checks that the password has at least 8 characters,
+   // a capital letter, a number and a special character
     public boolean checkPasswordComplexity(String password) {
         
         if (password.length() < 8) {
