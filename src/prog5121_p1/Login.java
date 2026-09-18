@@ -52,6 +52,8 @@ public class Login {
     }
     
     
+    // Checks that the cellphone number starts with +27
+   // and contains the required number of digits.
     public boolean checkCellPhoneNumber(String cellphone) {
         return cellphone.matches("^\\+27[0-9]{9}$");
         
