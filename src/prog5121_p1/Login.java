@@ -18,6 +18,7 @@ public class Login {
     private String savedCellphone;
     
     
+    // Checks that the username contains an underscore and is no longer than 5 characters.
     public boolean checkUserName(String username) {
         return username.length() <=5 && username.contains("_");
     }
