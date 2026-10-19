@@ -20,4 +20,4 @@ jobs:
         distribution: 'temurin'
 
     - name: Run Unit Tests with Ant
-      run: ant test
+      run: ant test -Djavac.source=21 -Djavac.target=21
