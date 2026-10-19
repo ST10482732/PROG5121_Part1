@@ -1,0 +1,23 @@
+name: Java CI with Ant
+
+on:
+  push:
+    branches: [ "main", "KhanbanTasks" ]
+  pull_request:
+    branches: [ "main", "KhanbanTasks" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+
+    - name: Run Unit Tests with Ant
+      run: ant test -Djavac.source=21 -Djavac.target=21
