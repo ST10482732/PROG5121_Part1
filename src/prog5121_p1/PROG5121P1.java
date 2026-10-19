@@ -127,6 +127,10 @@ public class PROG5121P1 {
                 System.out.println();
             }
         }
+            
+            // PART 2: Messages can only be sent after a successful login
+            Message.startQuickChat(input);
+            
         }
         
         input.close();
