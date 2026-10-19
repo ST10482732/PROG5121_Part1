@@ -2,9 +2,9 @@ name: Java CI with Ant
 
 on:
   push:
-    branches: [ "main", "KhanbanTasks" ]
+    branches: [ "main", "master", "KhanbanTasks" ]
   pull_request:
-    branches: [ "main", "KhanbanTasks" ]
+    branches: [ "main", "master", "KhanbanTasks" ]
 
 jobs:
   build:
