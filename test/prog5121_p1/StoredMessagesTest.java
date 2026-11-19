@@ -5,7 +5,7 @@
 
 package prog5121_p1;
 
-// Import the classes used for file handling, arrays and JUnit testing
+// Import the classes used for the particular file handling, arrays and JUnit testing
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
