@@ -23,7 +23,7 @@ public class StoredMessages {
     
     private final String jsonFile;
     
-    // Five parallel arrays to store message details for part 3
+    // Five parallel arrays to store message details for this part 3
     private String[] sentMessage = new String[0];
     private String[] disregardedMessages = new String[0];
     private String[] storedMessages = new String[0];
